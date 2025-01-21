@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+header{
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:70px 0  ;
+    flex-direction: column;
+    gap: 70px;
+}
+input{
+    width: 200px;
+    height: 39px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+select {
+    width: 100px;
+    height: 39px;
+    border-radius: 10px;
+}
+main{
+    background-color: black;
+    padding-top: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 300px;
+}
+.Mode{
+    display: none;
+}
